@@ -1,0 +1,35 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple boilerplate for react projects",
+  "main": "index.js",
+  "author": "Sean Fallmann",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev-start": "webpack-dev-server",
+    "start": "/*unconfigured*/"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.7",
+    "mocha": "^3.5.3",
+    "node-sass": "^4.5.3",
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
